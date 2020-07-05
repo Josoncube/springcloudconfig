@@ -11,7 +11,7 @@ server:
 spring:
   profiles: dev
   application:
-    name: SpringCloud-provider-dept-bus-test
+    name: SpringCloud-provider-dept-bus
 
 #Eureka
 eureka:
@@ -27,7 +27,7 @@ server:
 spring:
   profiles: test
   application:
-    name: SpringCloud-provider-dept-bus-test
+    name: SpringCloud-provider-dept-bus
 
 #Eureka
 eureka:
