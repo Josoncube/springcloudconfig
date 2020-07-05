@@ -19,6 +19,7 @@ eureka:
     service-url:
       defaultZone: http://127.0.0.1:7001/eureka/,http://127.0.0.1:7002/eureka/,http://127.0.0.1:7003/eureka/
 
+foo= jinjie
 ---
 
 server: 
@@ -34,3 +35,5 @@ eureka:
   client:
     service-url:
       defaultZone: http://127.0.0.1:7001/eureka/,http://127.0.0.1:7002/eureka/,http://127.0.0.1:7003/eureka/
+
+
