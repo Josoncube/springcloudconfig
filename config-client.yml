@@ -11,7 +11,7 @@ server:
 spring:
   profiles: dev
   application:
-    name: SpringCloud-provider-dept-bus-version3
+    name: SpringCloud-provider-dept-bus-version4
 
 #Eureka
 eureka:
@@ -26,8 +26,8 @@ server:
 #spirng配置
 spring:
   profiles: test
-  application:
-    name: SpringCloud-provider-dept-bus-version3
+  application
+    name: SpringCloud-provider-dept-bus-version4
 #Eureka
 eureka:
   client:
