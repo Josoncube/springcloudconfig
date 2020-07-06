@@ -9,7 +9,7 @@ spring:
 spring:
   profiles: dev
   application:
-    name: SpringCloud-provider-dept-bus-version10
+    name: SpringCloud-provider-dept-bus-version11
 
 #Eureka
 eureka:
@@ -24,7 +24,7 @@ eureka:
 spring:
   profiles: test
   application: 
-    name: SpringCloud-provider-dept-bus-version10
+    name: SpringCloud-provider-dept-bus-version11
 #Eureka
 eureka:
   client:
