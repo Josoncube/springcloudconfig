@@ -5,11 +5,13 @@ spring:
 
 ---
 
+server: 
+  port: 8201
 #spirng配置
 spring:
   profiles: dev
   application:
-    name: SpringCloud-provider-dept-bus-version12
+    name: SpringCloud-provider-dept-bus-
 
 #Eureka
 eureka:
@@ -19,16 +21,19 @@ eureka:
 
 ---
 
-
+server: 
+  port: 8202
 #spirng配置
 spring:
   profiles: test
-  application: 
-    name: SpringCloud-provider-dept-bus-version12
+  application:
+    name: SpringCloud-provider-dept-bus-
+
 #Eureka
 eureka:
   client:
     service-url:
+      defaultZone: http://127.0.0.1:7001/eureka/,http://127.0.0.1:7002/eureka/,http://127.0.0.1:7003/eureka/
       defaultZone: http://127.0.0.1:7001/eureka/,http://127.0.0.1:7002/eureka/,http://127.0.0.1:7003/eureka/
 
 
